@@ -52,12 +52,12 @@ MonoBehaviour:
   passagePrefab: {fileID: 11400000, guid: f0f3b7e5b17eecb40b4ef375c7d66233, type: 3}
   wallPrefabs:
   - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
+  - {fileID: 11400000, guid: 64e0db3ba1b41024fa0b5a3e9602e0cc, type: 3}
   - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
   - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
   - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
   - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
-  - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
-  - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
+  - {fileID: 11400000, guid: 7fac61b839a338d4e8d61217379005bf, type: 3}
   - {fileID: 11400000, guid: 6d8f8bec12b925042a0164e3503024c3, type: 3}
   - {fileID: 11400000, guid: bb96ce72615a45345878c78ab6dd2f83, type: 3}
   - {fileID: 11400000, guid: 93c6f165cc51c3a46842f14d4f340640, type: 3}

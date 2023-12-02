@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Maze 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1592517cf81484424a60f86dfcafc7eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size:
+    x: 20
+    z: 20
+  cellPrefab: {fileID: 11400000, guid: d356c092f8d11684c9abce3d253a9d0d, type: 3}
+  generationStepDelay: 0
+  passagePrefab: {fileID: 11400000, guid: f0f3b7e5b17eecb40b4ef375c7d66233, type: 3}
+  wallPrefabs:
+  - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
+  - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
+  - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
+  - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
+  - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
+  - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
+  - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}
+  - {fileID: 11400000, guid: 6d8f8bec12b925042a0164e3503024c3, type: 3}
+  - {fileID: 11400000, guid: bb96ce72615a45345878c78ab6dd2f83, type: 3}
+  - {fileID: 11400000, guid: 93c6f165cc51c3a46842f14d4f340640, type: 3}
+  - {fileID: 11400000, guid: 76006d4f9c5d62c4391c7d1f65e61b86, type: 3}
+  - {fileID: 11400000, guid: e133c2eb3591cdf4f93f480643fca7d9, type: 3}

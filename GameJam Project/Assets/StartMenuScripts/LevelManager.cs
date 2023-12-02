@@ -14,6 +14,15 @@ public class LevelManager : MonoBehaviour
         SceneManager.LoadScene("Main_Scene");
     }
 
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("CreditsScene");
+    }
+
+    public void LoadHelp()
+    {
+        SceneManager.LoadScene("HelpScene");
+    }
 
     public void LoadGameOver()
     {

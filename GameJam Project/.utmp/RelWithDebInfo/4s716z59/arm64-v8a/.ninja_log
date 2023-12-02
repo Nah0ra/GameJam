@@ -1,11 +1,11 @@
 # ninja log v5
-112	4535	7232208667549232	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	b925d2f6484b6695
-4576	5535	7232208692991204	C:/Users/Nah0r/Documents/GitHub/GameJam/GameJam Project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4s716z59/obj/arm64-v8a/libswappywrapper.so	7dcbc4c36c8ff1f6
-29	6130	7232208699658304	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	4ca6fdaa3eea3278
-49	6212	7232208700557837	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	9b0c9085377cfbfb
-9	6252	7232208700909392	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	3380d3e0845c1106
-73	6345	7232208701789340	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	c9f184e2e65b8157
-18	6407	7232208702471524	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c08df191bd700723
-40	6636	7232208704849627	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	766c4fb22d1e70ae
-1	6737	7232208705802393	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	ee0a03ee1680b3e4
-6737	6959	7232208707395462	C:/Users/Nah0r/Documents/GitHub/GameJam/GameJam Project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4s716z59/obj/arm64-v8a/libgame.so	39ea4042539e67c4
+49	469	7232596951047285	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	b925d2f6484b6695
+472	964	7232596954467629	C:/Users/Nah0r/Documents/GitHub/GameJam/GameJam Project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4s716z59/obj/arm64-v8a/libswappywrapper.so	7dcbc4c36c8ff1f6
+25	1883	7232596965052771	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	4ca6fdaa3eea3278
+18	1973	7232596966005005	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	9b0c9085377cfbfb
+6	2007	7232596966333166	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	3380d3e0845c1106
+41	2130	7232596967568075	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	c9f184e2e65b8157
+1	2216	7232596968503238	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c08df191bd700723
+32	2500	7232596971413039	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	766c4fb22d1e70ae
+12	2585	7232596972293952	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	ee0a03ee1680b3e4
+2586	2783	7232596973655880	C:/Users/Nah0r/Documents/GitHub/GameJam/GameJam Project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4s716z59/obj/arm64-v8a/libgame.so	39ea4042539e67c4

@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class PistolScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField]
+    private Animator FireAnim;
+
+    public void Start()
     {
-        
+        FireAnim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void FireGun()
     {
-        
+        FireAnim.Play("Fire");
     }
+
+   
 }

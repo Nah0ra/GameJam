@@ -3822,7 +3822,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< Updated upstream:GameJam Project/Assets/Nick's Prefabs/Grunt.prefab
   - {fileID: 8898389872135128279}
+=======
+>>>>>>> Stashed changes:GameJam Project/Assets/Assets To Use/Sci-Fi/Grunt.prefab
   - {fileID: 4503536026885678}
   - {fileID: 4938764886639194}
   - {fileID: 4054681319405598}
@@ -4453,6 +4456,7 @@ Transform:
   - {fileID: 4397433767832776}
   m_Father: {fileID: 4206215793632102}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:GameJam Project/Assets/Nick's Prefabs/Grunt.prefab
 --- !u!1001 &8893881728927229011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4515,3 +4519,5 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4508267963687044, guid: 4d5e45013e2bb8042b0207cf4a203289, type: 3}
   m_PrefabInstance: {fileID: 8893881728927229011}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes:GameJam Project/Assets/Assets To Use/Sci-Fi/Grunt.prefab

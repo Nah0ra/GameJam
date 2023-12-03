@@ -21,7 +21,6 @@ public class Enemy : MonoBehaviour
         Goal = GameObject.FindWithTag("Goal").transform;
         animator = GetComponent<Animator>();
         Player = GameObject.FindWithTag("Player").transform;
-        
     }
 
     public void TakeDamage()
@@ -50,4 +49,5 @@ public class Enemy : MonoBehaviour
             animator.SetBool("IsWalking", true);
         }
     }
+
 }

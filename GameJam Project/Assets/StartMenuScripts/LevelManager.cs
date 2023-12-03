@@ -11,9 +11,19 @@ public class LevelManager : MonoBehaviour
     }
     public void LoadGame()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Main_Scene");
     }
 
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("CreditsScene");
+    }
+
+    public void LoadHelp()
+    {
+        SceneManager.LoadScene("HelpScene");
+    }
 
     public void LoadGameOver()
     {

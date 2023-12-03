@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Goal: {fileID: 0}
-  EnemyHealth: 2
+  EnemyHealth: 10
 --- !u!54 &6374888611349329751
 Rigidbody:
   m_ObjectHideFlags: 0

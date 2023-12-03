@@ -3902,7 +3902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Goal: {fileID: 0}
-  EnemyHealth: 2
+  EnemyHealth: 5
 --- !u!54 &2377446991489112241
 Rigidbody:
   m_ObjectHideFlags: 0

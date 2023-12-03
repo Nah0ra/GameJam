@@ -1270,6 +1270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a313487fb6d6de84ca65f5605a62ce43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CinematicCutscene: {fileID: 0}
+  PlayerCam: {fileID: 0}
 --- !u!1 &1438497619747869024
 GameObject:
   m_ObjectHideFlags: 0

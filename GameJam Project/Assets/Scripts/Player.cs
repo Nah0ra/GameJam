@@ -19,6 +19,10 @@ public class Player : MonoBehaviour
 
     private void Start() 
     {
+        Gun = GameObject.Find("Pistol");
+        Hammer = GameObject.Find("Hammer");
+        GunHolster = GameObject.Find("GunHolster");
+        HammerHolster = GameObject.Find("HammerHolster");
         CinematicCutscene = GameObject.Find("CinematicCutscene");
         PlayerCam = GameObject.Find("Main Camera");
         PlayerCam.SetActive(false);
@@ -27,6 +31,12 @@ public class Player : MonoBehaviour
         Hammer = GameObject.Find("Hammer");
         GunHolster = GameObject.Find("GunHolster");
         HammerHolster = GameObject.Find("HammerHolster");
+    }
+
+    public void ReturnToHolster()
+    {
+        Gun.transform.position = GunHolster.transform.position;
+        Hammer.transform.position = HammerHolster.transform.position;
     }
 
     public void ReturnToHolster()

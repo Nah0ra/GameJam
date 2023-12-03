@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 1484605423044897399}
   - component: {fileID: 1675457639036196230}
   - component: {fileID: 6374888611349329751}
+  - component: {fileID: 6947609620344231383}
   m_Layer: 0
   m_Name: Character_Robot_01
   m_TagString: Enemy
@@ -97,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 1025864630481856}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f13349cc09b03d447a26b54d406aaa8e, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: df0080cb46f6d5a428c897c3f1c6f777, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -172,6 +173,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6947609620344231383
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025864630481856}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1.93
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &1027719268642640
 GameObject:
   m_ObjectHideFlags: 0

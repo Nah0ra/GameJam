@@ -9,12 +9,15 @@ public class Enemy : MonoBehaviour
     private Transform Goal;
     private NavMeshAgent agent;
 
+    private Animator animator;
+
     public int EnemyHealth;
 
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         Goal = GameObject.FindWithTag("Goal").transform;
+        animator = GetComponent<Animator>();
     }
 
     public void TakeDamage()

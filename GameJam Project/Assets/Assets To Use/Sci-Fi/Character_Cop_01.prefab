@@ -3799,7 +3799,7 @@ GameObject:
   - component: {fileID: 4724872944711514}
   - component: {fileID: 95002627717350384}
   - component: {fileID: 2648116431718710226}
-  - component: {fileID: 3969725749980631407}
+  - component: {fileID: 474326010008001890}
   - component: {fileID: 2377446991489112241}
   m_Layer: 0
   m_Name: Character_Cop_01
@@ -3888,7 +3888,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3969725749980631407
+--- !u!114 &474326010008001890
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3902,6 +3902,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Goal: {fileID: 0}
   EnemyHealth: 5
+  MaxHealth: 5
+  OnDie:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 474326010008001890}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: TakeDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 474326010008001890}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: Damage
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!54 &2377446991489112241
 Rigidbody:
   m_ObjectHideFlags: 0

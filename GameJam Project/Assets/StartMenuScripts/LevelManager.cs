@@ -11,6 +11,7 @@ public class LevelManager : MonoBehaviour
     }
     public void LoadGame()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Main_Scene");
     }
 

@@ -8,12 +8,14 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private Transform Goal;
     private NavMeshAgent agent;
+    private Transform Player;
 
     public int EnemyHealth;
 
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        Player = GameObject.Find("Player").transform;
         Goal = GameObject.FindWithTag("Goal").transform;
     }
 
@@ -28,6 +30,14 @@ public class Enemy : MonoBehaviour
 
     private void Update() 
     {
-        agent.destination = Goal.position;
+        if (gameObject.transform.tag == "Enemy")
+        {
+            agent.destination = Goal.position;
+        }
+        else
+        {
+            agent.destination = Player.position;
+        }
+        
     }
 }

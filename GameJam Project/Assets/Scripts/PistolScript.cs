@@ -24,7 +24,7 @@ public class PistolScript : MonoBehaviour
         if (Physics.Raycast(muzzle.transform.position, muzzle.transform.forward, out hit))
         {
             Debug.Log(hit.transform.name);
-            if(hit.transform.tag == "Enemy")
+            if(hit.transform.tag == "Enemy" || hit.transform.tag == "Elite")
             {
                 hit.transform.gameObject.GetComponent<Enemy>().TakeDamage();
             }

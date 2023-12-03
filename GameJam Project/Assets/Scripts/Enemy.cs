@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         Goal = GameObject.FindWithTag("Goal").transform;
         animator = GetComponent<Animator>();
+        Player = GameObject.FindWithTag("Player").transform;
         
     }
 
@@ -38,6 +39,7 @@ public class Enemy : MonoBehaviour
        if (gameObject.transform.tag == "Enemy")
         {
             agent.destination = Goal.position;
+            agent.transform.LookAt(Player.position);
         }
         else if (gameObject.transform.tag == "Elite")
         {

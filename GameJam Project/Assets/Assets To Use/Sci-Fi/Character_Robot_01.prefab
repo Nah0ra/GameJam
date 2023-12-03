@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 6947609620344231383}
   m_Layer: 0
   m_Name: Character_Robot_01
-  m_TagString: Enemy
+  m_TagString: Elite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

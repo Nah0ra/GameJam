@@ -13,11 +13,14 @@ public class Enemy : MonoBehaviour
 
     public int EnemyHealth;
 
+    private Transform Player;
+
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         Goal = GameObject.FindWithTag("Goal").transform;
         animator = GetComponent<Animator>();
+        
     }
 
     public void TakeDamage()
@@ -31,6 +34,16 @@ public class Enemy : MonoBehaviour
 
     private void Update() 
     {
-        agent.destination = Goal.position;
+
+       if (gameObject.transform.tag == "Enemy")
+        {
+            agent.destination = Goal.position;
+        }
+        else if (gameObject.transform.tag == "Elite")
+        {
+            Player = GameObject.FindWithTag("Player").transform;
+            agent.destination = Player.position;
+            agent.transform.LookAt(Player.position);
+        }
     }
 }

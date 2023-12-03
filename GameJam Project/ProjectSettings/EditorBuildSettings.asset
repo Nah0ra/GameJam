@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/StartingMenu.unity
     guid: bb0e12c19c3b10c4b8f78358b8a58181
   - enabled: 1
-    path: Assets/Scenes/Maze.unity
-    guid: 62b00a33815fd114c93b38a7524c3f38
-  - enabled: 1
     path: Assets/Scenes/HelpScene.unity
     guid: 5f9b13f6cf520c0459a4d98fcc421a85
   - enabled: 1

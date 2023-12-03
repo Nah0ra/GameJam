@@ -119,6 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &384255755
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +768,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513611183}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &995538045
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,9 +865,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1859500627}
+<<<<<<< Updated upstream
   - {fileID: 491065889}
   - {fileID: 513611184}
   - {fileID: 384255756}
+=======
+>>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1003,7 +1009,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 146a3b6a61384fd40aad3cb4acb7b87a, type: 2}
+=======
+  - {fileID: 2100000, guid: 5bebb9d6d7d852b4f9902e924394ab83, type: 2}
+>>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1244,10 +1254,15 @@ GameObject:
   - component: {fileID: 1859500627}
   - component: {fileID: 1859500629}
   - component: {fileID: 1859500628}
+<<<<<<< Updated upstream
   - component: {fileID: 1859500631}
   - component: {fileID: 1859500630}
   m_Layer: 5
   m_Name: Start
+=======
+  m_Layer: 5
+  m_Name: Text (TMP)
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1269,7 +1284,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 5.1898, y: 81}
+=======
+  m_AnchoredPosition: {x: 5.1898, y: 161}
+>>>>>>> Stashed changes
   m_SizeDelta: {x: 318.62, y: 36.245}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1859500628
@@ -1292,7 +1311,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_text: Start
+=======
+  m_text: Start Game
+>>>>>>> Stashed changes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8b511c8ef6989d44a67cab4ce7f5d9d, type: 2}
   m_sharedMaterial: {fileID: -2103698451009678321, guid: e8b511c8ef6989d44a67cab4ce7f5d9d, type: 2}
@@ -1326,7 +1349,11 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 9
+<<<<<<< Updated upstream
   m_HorizontalAlignment: 2
+=======
+  m_HorizontalAlignment: 1
+>>>>>>> Stashed changes
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1371,6 +1398,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859500626}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!114 &1859500630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1506,6 +1534,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea558a1b7e7aeb64c953a64fcbf90916, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1515,4 +1545,7 @@ SceneRoots:
   - {fileID: 1566955821}
   - {fileID: 995538049}
   - {fileID: 1535918319}
+<<<<<<< Updated upstream
   - {fileID: 9083362169708381193}
+=======
+>>>>>>> Stashed changes

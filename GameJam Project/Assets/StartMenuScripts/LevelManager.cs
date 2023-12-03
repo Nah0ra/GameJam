@@ -11,6 +11,7 @@ public class LevelManager : MonoBehaviour
     }
     public void LoadGame()
     {
+<<<<<<< Updated upstream
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main_Scene");
     }
@@ -24,6 +25,11 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene("HelpScene");
     }
+=======
+        SceneManager.LoadScene("Main_Scene");
+    }
+
+>>>>>>> Stashed changes
 
     public void LoadGameOver()
     {

@@ -9,7 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7780434085027964457}
+<<<<<<< Updated upstream
   - component: {fileID: 6868637382158620339}
+=======
+  - component: {fileID: 7060709401541605971}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -32,7 +36,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!114 &6868637382158620339
+=======
+--- !u!114 &7060709401541605971
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

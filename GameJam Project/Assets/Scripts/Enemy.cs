@@ -40,12 +40,14 @@ public class Enemy : MonoBehaviour
         {
             agent.destination = Goal.position;
             agent.transform.LookAt(Player.position);
+            animator.SetBool("IsWalking", true);
         }
         else if (gameObject.transform.tag == "Elite")
         {
             Player = GameObject.FindWithTag("Player").transform;
             agent.destination = Player.position;
             agent.transform.LookAt(Player.position);
+            animator.SetBool("IsWalking", true);
         }
     }
 }

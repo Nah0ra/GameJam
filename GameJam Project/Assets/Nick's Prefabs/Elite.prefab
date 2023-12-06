@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Goal: {fileID: 0}
   EnemyHealth: 5
+  Scrap: {fileID: 4352933828673540054, guid: 9b40d850492558c4ca3f1033765e1740, type: 3}
 --- !u!54 &6374888611349329751
 Rigidbody:
   m_ObjectHideFlags: 0

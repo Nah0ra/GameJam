@@ -15,8 +15,13 @@ public class Enemy : MonoBehaviour
 
     private Transform Player;
 
+    public GameObject Scrap;
+
+    GameData gameData;
+
     private void Start()
     {
+        gameData = GameObject.Find("Scripts").GetComponent<GameData>();
         agent = GetComponent<NavMeshAgent>();
         Goal = GameObject.FindWithTag("Goal").transform;
         animator = GetComponent<Animator>();
@@ -25,9 +30,10 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage()
     {
-        EnemyHealth--;
+        EnemyHealth --;
         if (EnemyHealth == 0)
         {
+            gameData.Scrap++;
             Destroy(gameObject);
         }
     }
@@ -48,12 +54,19 @@ public class Enemy : MonoBehaviour
             agent.transform.LookAt(Player.position);
             animator.SetBool("IsWalking", true);
         }
+
+    
     }
 
-    private void OnCollisionEnter(Collision other) {
-        if (other.transform.tag == "Player")
+    private void OnTriggerEnter(Collider other) {
+        if (other.transform.CompareTag("Player"))
         {
             animator.Play("Slash");
+            gameData.PlayerHealth--;
+        }
+        else if (other.transform.CompareTag("Laser"))
+        {
+            TakeDamage();
         }
     }
 }

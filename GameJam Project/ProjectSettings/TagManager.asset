@@ -7,6 +7,12 @@ TagManager:
   - Goal
   - Enemy
   - Elite
+  - Scrap
+  - Laser
+  - Trap
+  - Trap 2
+  - Teleporter
+  - Core
   layers:
   - Default
   - TransparentFX

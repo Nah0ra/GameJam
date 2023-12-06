@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other) 
+    public void StartGame()
     {
         SceneManager.LoadScene("Main_Scene");
     }

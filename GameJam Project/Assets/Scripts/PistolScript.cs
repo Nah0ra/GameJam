@@ -11,24 +11,33 @@ public class PistolScript : MonoBehaviour
 
     private GameObject muzzle;
 
+    public AudioSource audiosource;
+
+    GameData gameData;
     public void Start()
     {
         FireAnim = GetComponent<Animator>();
         muzzle = transform.GetChild(5).gameObject;
+        audiosource = GetComponent<AudioSource>();
+        gameData = GameObject.Find("Scripts").GetComponent<GameData>();
     }
 
     public void FireGun()
     {
         FireAnim.Play("Fire");
+        audiosource.Play();
         RaycastHit hit;
         if (Physics.Raycast(muzzle.transform.position, muzzle.transform.forward, out hit))
         {
-            Debug.Log(hit.transform.name);
             if(hit.transform.tag == "Enemy" || hit.transform.tag == "Elite")
             {
                 hit.transform.gameObject.GetComponent<Enemy>().TakeDamage();
             }
-            else
+            else if(hit.transform.tag == "Core")
+            {
+                gameData.CoreHealth = gameData.CoreHealth - 2;
+            }
+            else 
             {
                 return;
             }
